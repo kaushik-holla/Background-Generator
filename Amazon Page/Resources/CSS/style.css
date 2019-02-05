@@ -1,0 +1,118 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: #fff;
+	color: #555;
+	font-family:'Lato', 'Arial', sans-serif;
+	font-weight:300;
+	font-size: 20px;
+}
+
+
+/*------ header section ----------*/
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) , url(img/amazon.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+
+}
+
+/* Logo and navigation bar */
+
+.logo {
+	color: #acb4b5;
+	margin-top: 10px;
+	margin-left: 80px;
+	font-size: 80px;
+	float: left;
+}
+
+.logo a:link,
+.logo a:visited{
+	text-decoration: none;
+	color: #acb4b5;
+/*	border: 1px solid transparent; */
+	transition:color 0.2s;
+}
+
+.logo a:hover,
+.logo a:active{
+	color: #fff;
+/*	border-bottom: 2px solid #d35400; */
+}
+
+.main-nav {
+	margin-top: 50px;
+	float: right;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	padding:8px 0;
+	color: #acb4b5;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;	
+	border: 2px solid transparent;
+	font-size: 90%;
+	transition: border-bottom 0.2s, color: 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	color: #fff;
+	border-bottom: 2px solid #d35400;
+
+}
+
+/* Header text and button */
+
+h1 {
+	color: #fff;
+	margin: 0px;
+	font-weight: 300;
+	font-size: 240%;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+	text-transform: uppercase;
+}
+
+
+.hero-text-box {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-40%, -40%);
+}
+
+.btn:link,
+.btn:visited {
+	color: #555f;
+	display: inline-block;
+	border: 2px solid #acb4b5;
+	border-radius: 40px;
+	padding: 15px 15px;
+	margin-top: 20px;
+	background-color: #acb4b5;
+	text-decoration: none;
+	transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+	border: 2px solid #d35400;
+	background-color: #d35400;
+	color: #fff;
+}
